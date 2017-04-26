@@ -4,7 +4,7 @@
     <string name="Setting">服务器配置</string>
     <string name="location_list">位置列表</string>
     <string name="camera_list">摄像头列表</string>
-    <string name="copyright">/Copyright  2017-2018 www.sddayou.cn</string>
+    <string name="copyright">Copyright  2017-2018 www.sddayou.cn</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>

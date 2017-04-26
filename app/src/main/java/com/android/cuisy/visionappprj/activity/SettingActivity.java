@@ -1,5 +1,6 @@
 package com.android.cuisy.visionappprj.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -57,15 +58,19 @@ public class SettingActivity extends AppCompatActivity implements OnClickListene
             //setResult(RESULT_OK, intent);
 //            startActivity(intent);
             //setResult(RESULT_OK, intent_port);
-            finish();
+            Intent intent = new Intent(this, LoginActivity.class);
+            startActivity(intent);
             Toast.makeText(this, "设置成功", Toast.LENGTH_SHORT).show();
+            finish();
         }
         if (id == R.id.cancel_btn_id) {
+            Intent intent = new Intent(this, LoginActivity.class);
+            startActivity(intent);
             finish();
         }
     }
-//    @Override
-//    public void onBackPressed() {
+    @Override
+    public void onBackPressed() {
 //        String ip = ipEdit.getText().toString();
 //        String port = portEdit.getText().toString();
 //        Intent intent_ip = new Intent();
@@ -74,6 +79,8 @@ public class SettingActivity extends AppCompatActivity implements OnClickListene
 //        intent_port.putExtra("ip", port);
 //        setResult(RESULT_OK, intent_ip);
 //        setResult(RESULT_OK, intent_port);
-//        finish();
-//    }
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
+        finish();
+    }
 }
