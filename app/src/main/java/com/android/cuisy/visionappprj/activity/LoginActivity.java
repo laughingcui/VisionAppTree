@@ -1,5 +1,6 @@
 package com.android.cuisy.visionappprj.activity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -12,7 +13,7 @@ import com.android.cuisy.visionappprj.R;
 import com.android.cuisy.visionappprj.entity.Constants;
 import com.android.cuisy.visionappprj.util.HttpUtil;
 
-public class LoginActivity extends AppCompatActivity implements OnClickListener {
+public class LoginActivity extends Activity implements OnClickListener {
 
     private static final int REQUEST_ACCOUNT = 1;//请求码，此值只要是唯一即可
     public EditText accountEdit;
@@ -72,6 +73,7 @@ public class LoginActivity extends AppCompatActivity implements OnClickListener 
                 }
             }
         }
+        this.finish();
 
         if (id == R.id.setting_btn_id) {
             Intent intent = new Intent(this, SettingActivity.class);

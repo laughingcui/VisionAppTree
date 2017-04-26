@@ -8,6 +8,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -19,6 +20,7 @@ import com.android.cuisy.visionappprj.entity.Camera;
 import com.android.cuisy.visionappprj.entity.Constants;
 import com.android.cuisy.visionappprj.entity.Depart;
 import com.android.cuisy.visionappprj.slide.SlideMenu;
+import com.android.cuisy.visionappprj.timerService.Timer;
 import com.android.cuisy.visionappprj.util.HttpUtil;
 import com.android.cuisy.visionappprj.xmlParse.ParseXml;
 import com.zhy.tree.bean.Node;
@@ -27,6 +29,7 @@ import com.zhy.tree.bean.TreeListViewAdapter.OnTreeNodeClickListener;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.TimerTask;
 
 // 先把MainActivity代码移植到这个类
 public class TreeNodeActivity extends AppCompatActivity implements View.OnClickListener {
@@ -42,6 +45,9 @@ public class TreeNodeActivity extends AppCompatActivity implements View.OnClickL
 
     private final int GET_CAMERA = 101;
     private final int INIT_DATA = 102;
+
+    private static Boolean isQuit = false;
+    Timer timer = new Timer();
 
     private Handler handler = new Handler() {
         @Override
@@ -93,6 +99,29 @@ public class TreeNodeActivity extends AppCompatActivity implements View.OnClickL
                 }
                 break;
         }
+    }
+
+    //点击返回键两次，退出APP
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
+            if (isQuit == false) {
+                isQuit = true;
+                Toast.makeText(getBaseContext(), "再按一次退出", Toast.LENGTH_SHORT).show();
+                TimerTask task = null;
+                task = new TimerTask() {
+                    @Override
+                    public void run() {
+                        isQuit = false;
+                    }
+                };
+                timer.schedule(task, 2000);
+            } else {
+                finish();
+                System.exit(0);
+            }
+        }
+        return true;
     }
 
     private void initAdapter() {

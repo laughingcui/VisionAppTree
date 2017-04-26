@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\chaos\\Desktop\\VisionAppPrj\\VisionAppPrj\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\chaos\\Desktop\\VisionAppPrj\\VisionAppPrj\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\chaos\\Desktop\\VisionAppPrj\\VisionAppPrj\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "C:\\Users\\chaos\\Desktop\\VisionAppPrj\\VisionAppPrj\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\VisionAppPrj\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\VisionAppPrj\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\VisionAppPrj\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\VisionAppPrj\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "F:\\MyGitProject\\VisionAppTree\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "F:\\MyGitProject\\VisionAppTree\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "F:\\MyGitProject\\VisionAppTree\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "F:\\MyGitProject\\VisionAppTree\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    }
+]
