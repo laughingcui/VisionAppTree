@@ -13,8 +13,8 @@ public class Constants {
 
     public static String SetIp ="192.168.2.201"; //设置界面的IP地址
     public static String SetPort = "8001" ;//设置界面的端口
-    public static String username = "admin"; //用户名
-    public static String password = "123456"; //密码
+    public static String username = ""; //用户名
+    public static String password = ""; //密码
     public static String sessionId = "";
 
     //数据库相关信息

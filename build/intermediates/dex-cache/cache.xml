@@ -21,24 +21,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\VisionAppPrj\app\libs\jna-4.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1c12d070e602efd8021891cdd7fd18bc129372d4">
-        <dex dex="C:\Users\Administrator\Desktop\VisionAppPrj\app\build\intermediates\transforms\dex\debug\folders\1000\2\jna-4.1.0_f795ba3763053cd13ca22643a43677074193163b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\VisionAppPrj\app\libs\zhy_treeview.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fed3dd13c481b36f333e6a4edbe8942ea176023c">
-        <dex dex="C:\Users\Administrator\Desktop\VisionAppPrj\app\build\intermediates\transforms\dex\debug\folders\1000\2\zhy_treeview_b010480589972b68c8fe445186f0bdd81001dd8d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Administrator\Desktop\VisionAppPrj\app\libs\fluent-hc-4.5.jar"
         jumboMode="false"
         optimize="true"
@@ -57,39 +39,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\VisionAppPrj\app\libs\httpcore-4.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f5aa318bda4c6c8d688c9d00b90681dcd82ce636">
-        <dex dex="C:\Users\Administrator\Desktop\VisionAppPrj\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpcore-4.4.1_ab2a084c0fce8369b3c6e733bc64be5f57912092\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\VisionAppPrj\app\libs\commons-codec-1.9.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9ce04e34240f674bc72680f8b843b1457383161a">
-        <dex dex="C:\Users\Administrator\Desktop\VisionAppPrj\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-codec-1.9_f5f4330ffe2614c02a5ba24575e2383208a06313\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="F:\MyGitProject\VisionAppTree\app\libs\httpclient-cache-4.5.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="dd8704e3cf3e56c4fc135d5a5e02970d521ccf80">
         <dex dex="F:\MyGitProject\VisionAppTree\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpclient-cache-4.5_62053141452a9d3cabd304be04aa853399d60fe6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\MyGitProject\VisionAppTree\app\libs\jna-4.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1c12d070e602efd8021891cdd7fd18bc129372d4">
-        <dex dex="F:\MyGitProject\VisionAppTree\app\build\intermediates\transforms\dex\debug\folders\1000\2\jna-4.1.0_de2f59fa3c327acf07c52343be17cd00d6e506ae\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -111,21 +66,66 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrator\Desktop\VisionAppPrj\app\libs\jna-platform-4.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="23457ad1cf75c2c16763330de5565a0e67b4bc0a">
-        <dex dex="C:\Users\Administrator\Desktop\VisionAppPrj\app\build\intermediates\transforms\dex\debug\folders\1000\2\jna-platform-4.1.0_f6259fc0b7dc794f4f136651c0b8b16712167e56\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="F:\MyGitProject\VisionAppTree\app\libs\httpclient-win-4.5.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="2f384c9c8ed771664b135cdb593e2235e4ea3524">
         <dex dex="F:\MyGitProject\VisionAppTree\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpclient-win-4.5_2fd386a7dcf80caba71c33b47e5a5d3587826253\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\VisionAppPrj\app\libs\jna-4.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1c12d070e602efd8021891cdd7fd18bc129372d4">
+        <dex dex="C:\Users\Administrator\Desktop\VisionAppPrj\app\build\intermediates\transforms\dex\debug\folders\1000\2\jna-4.1.0_f795ba3763053cd13ca22643a43677074193163b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\VisionAppPrj\app\libs\zhy_treeview.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fed3dd13c481b36f333e6a4edbe8942ea176023c">
+        <dex dex="C:\Users\Administrator\Desktop\VisionAppPrj\app\build\intermediates\transforms\dex\debug\folders\1000\2\zhy_treeview_b010480589972b68c8fe445186f0bdd81001dd8d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\VisionAppPrj\app\libs\httpcore-4.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f5aa318bda4c6c8d688c9d00b90681dcd82ce636">
+        <dex dex="C:\Users\Administrator\Desktop\VisionAppPrj\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpcore-4.4.1_ab2a084c0fce8369b3c6e733bc64be5f57912092\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\VisionAppPrj\app\libs\commons-codec-1.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ce04e34240f674bc72680f8b843b1457383161a">
+        <dex dex="C:\Users\Administrator\Desktop\VisionAppPrj\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-codec-1.9_f5f4330ffe2614c02a5ba24575e2383208a06313\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\MyGitProject\VisionAppTree\app\libs\jna-4.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1c12d070e602efd8021891cdd7fd18bc129372d4">
+        <dex dex="F:\MyGitProject\VisionAppTree\app\build\intermediates\transforms\dex\debug\folders\1000\2\jna-4.1.0_de2f59fa3c327acf07c52343be17cd00d6e506ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\VisionAppPrj\app\libs\jna-platform-4.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="23457ad1cf75c2c16763330de5565a0e67b4bc0a">
+        <dex dex="C:\Users\Administrator\Desktop\VisionAppPrj\app\build\intermediates\transforms\dex\debug\folders\1000\2\jna-platform-4.1.0_f6259fc0b7dc794f4f136651c0b8b16712167e56\classes.dex" />
     </item>
     <item
         is-multidex="true"
