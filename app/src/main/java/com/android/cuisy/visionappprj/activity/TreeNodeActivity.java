@@ -1,14 +1,18 @@
 package com.android.cuisy.visionappprj.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.annotation.NonNull;
+import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -32,7 +36,7 @@ import java.util.List;
 import java.util.TimerTask;
 
 // 先把MainActivity代码移植到这个类
-public class TreeNodeActivity extends AppCompatActivity implements View.OnClickListener {
+public class TreeNodeActivity extends AppCompatActivity implements View.OnClickListener,NavigationView.OnNavigationItemSelectedListener {
 
     private SlideMenu slideMenu;
     private ListView listView;
@@ -74,13 +78,14 @@ public class TreeNodeActivity extends AppCompatActivity implements View.OnClickL
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-      //  setContentView(R.layout.activity_main);
         setContentView(R.layout.activity_treenodelist);
         Toolbar toolbar = (Toolbar) findViewById(R.id.abm_toolbar);
         setSupportActionBar(toolbar);
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
         drawer.setDrawerListener(toggle);
         toggle.syncState();
         mTree = (ListView) findViewById(R.id.id_tree);
@@ -193,5 +198,17 @@ public class TreeNodeActivity extends AppCompatActivity implements View.OnClickL
         for (int i = 0; i < mDatas.size(); i++) {
             System.out.println(mDatas.get(i).get_id() + "|" + mDatas.get(i).getParentId() + "|" + mDatas.get(i).getName());
         }
+    }
+
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId() == R.id.nav_camera_list){
+            Intent intent = new Intent(this, LoginActivity.class);
+            startActivity(intent);
+
+        }else if (item.getItemId() == R.id.nav_scan_qr){
+            // 在这个方法监听对应id的控件
+        }
+        return false;
     }
 }

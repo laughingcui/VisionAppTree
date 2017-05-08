@@ -3,9 +3,9 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_add_camera"
+            android:id="@+id/nav_camera_list"
             android:icon="@drawable/ic_menu_camera"
-            android:title="添加摄像头" />
+            android:title="设备列表" />
         <item
             android:id="@+id/nav_scan_qr"
             android:icon="@drawable/ic_scan_qr"

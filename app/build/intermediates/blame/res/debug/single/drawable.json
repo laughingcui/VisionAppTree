@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\chaos\\Desktop\\VisionAppPrj\\VisionAppPrj\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_people.png",
-        "source": "C:\\Users\\chaos\\Desktop\\VisionAppPrj\\VisionAppPrj\\app\\src\\main\\res\\drawable\\ic_people.png"
-    },
-    {
         "merged": "F:\\MyGitProject\\VisionAppTree\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\646ba343a98aad7120f48cc3ea00b017c2576dbe\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\chaos\\Desktop\\VisionAppPrj\\VisionAppPrj\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_people.png",
+        "source": "C:\\Users\\chaos\\Desktop\\VisionAppPrj\\VisionAppPrj\\app\\src\\main\\res\\drawable\\ic_people.png"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\VisionAppPrj\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
@@ -140,12 +140,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\646ba343a98aad7120f48cc3ea00b017c2576dbe\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "F:\\MyGitProject\\VisionAppTree\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\646ba343a98aad7120f48cc3ea00b017c2576dbe\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
         "merged": "F:\\MyGitProject\\VisionAppTree\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_normal_bg.png",
         "source": "F:\\MyGitProject\\VisionAppTree\\app\\src\\main\\res\\drawable\\ic_item_normal_bg.png"
+    },
+    {
+        "merged": "F:\\MyGitProject\\VisionAppTree\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\646ba343a98aad7120f48cc3ea00b017c2576dbe\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
         "merged": "F:\\MyGitProject\\VisionAppPrj\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_item_selected_bg.png",

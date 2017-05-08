@@ -24,9 +24,9 @@ public class SettingActivity extends AppCompatActivity implements OnClickListene
         ipEdit = (EditText) findViewById(R.id.ip_edit_id);
         portEdit = (EditText) findViewById(R.id.port_edit_id);
 
-
         ipEdit.setText(Constants.SetIp);
         portEdit.setText(Constants.SetPort);
+
         View confirm_btn = findViewById(R.id.confirm_btn_id);
         View cancel_btn = findViewById(R.id.cancel_btn_id);
 
@@ -51,13 +51,6 @@ public class SettingActivity extends AppCompatActivity implements OnClickListene
                 return;
             }
 
-//            Intent intent = new Intent(this, LoginActivity.class);
-//            //Intent intent_port = new Intent(this, SettingActivity.class);
-//            intent.putExtra("ip", ip);
-//            intent.putExtra("port",port);
-            //setResult(RESULT_OK, intent);
-//            startActivity(intent);
-            //setResult(RESULT_OK, intent_port);
             Intent intent = new Intent(this, LoginActivity.class);
             startActivity(intent);
             Toast.makeText(this, "设置成功", Toast.LENGTH_SHORT).show();
@@ -71,14 +64,6 @@ public class SettingActivity extends AppCompatActivity implements OnClickListene
     }
     @Override
     public void onBackPressed() {
-//        String ip = ipEdit.getText().toString();
-//        String port = portEdit.getText().toString();
-//        Intent intent_ip = new Intent();
-//        intent_ip.putExtra("ip", ip);
-//        Intent intent_port = new Intent();
-//        intent_port.putExtra("ip", port);
-//        setResult(RESULT_OK, intent_ip);
-//        setResult(RESULT_OK, intent_port);
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
         finish();
